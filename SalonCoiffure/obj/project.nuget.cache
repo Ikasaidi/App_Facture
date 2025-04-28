@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pMZqE6fFrd8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ikram\\OneDrive - Cégep Marie-Victorin\\SalonCoiffure\\SalonCoiffure\\SalonCoiffure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ikram\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
