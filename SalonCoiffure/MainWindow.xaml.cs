@@ -34,6 +34,20 @@ namespace SalonCoiffure
             MainFrame.Navigate(new ServiceWindow());
         }
 
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
+
+        private void DashboardButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new DashboardPage());
+        }
+
+        private void PaiementButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new PaiementPage());
+        }
 
     }
 }

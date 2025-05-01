@@ -13,7 +13,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="a-l-l-e-f-v-i-n-i-c-i-u-s-343875-unsplash.png" />
+    <None Remove="background.png" />
+    <None Remove="Online Payment.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="a-l-l-e-f-v-i-n-i-c-i-u-s-343875-unsplash.png" />
+    <Resource Include="background.png" />
+    <Resource Include="Online Payment.png" />
   </ItemGroup>
 
 </Project>

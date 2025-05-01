@@ -25,3 +25,46 @@ C:\Users\ikram\OneDrive - Cégep Marie-Victorin\SalonCoiffure\SalonCoiffure\obj\
 C:\Users\ikram\OneDrive - Cégep Marie-Victorin\SalonCoiffure\SalonCoiffure\obj\Debug\net8.0-windows\ServiceWindow.baml
 C:\Users\ikram\OneDrive - Cégep Marie-Victorin\SalonCoiffure\SalonCoiffure\obj\Debug\net8.0-windows\CustomerPage.g.cs
 C:\Users\ikram\OneDrive - Cégep Marie-Victorin\SalonCoiffure\SalonCoiffure\obj\Debug\net8.0-windows\CustomerPage.baml
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\SalonCoiffure.exe
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\SalonCoiffure.deps.json
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\SalonCoiffure.runtimeconfig.json
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\SalonCoiffure.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\SalonCoiffure.pdb
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.csproj.AssemblyReference.cache
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\DashboardPage.baml
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\PaiementPage.baml
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\CustomerPage.g.cs
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\DashboardPage.g.cs
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\PaiementPage.g.cs
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\ServiceWindow.g.cs
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure_MarkupCompile.cache
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure_MarkupCompile.lref
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\CustomerPage.baml
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\ServiceWindow.baml
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.g.resources
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.AssemblyInfoInputs.cache
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.AssemblyInfo.cs
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.csproj.CoreCompileInputs.cache
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.sourcelink.json
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoi.B4C0742B.Up2Date
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\refint\SalonCoiffure.dll
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.pdb
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\SalonCoiffure.genruntimeconfig.cache
+C:\Users\yisla\OneDrive\Documents\Projet Entreprise\repo projet\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\ref\SalonCoiffure.dll

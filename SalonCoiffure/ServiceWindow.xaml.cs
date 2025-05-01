@@ -35,5 +35,10 @@ namespace SalonCoiffure
         {
             await _viewModel.LoadAsync();
         }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
