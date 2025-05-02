@@ -11,8 +11,9 @@ namespace SalonCoiffure.Model
         private static int _id = 0;
         public int Id { get; set; }
         public string Nom { get; set; }
-        public decimal Prix { get; set; } 
-
+        public decimal Prix { get; set; }
+        public int FactureId { get; set; }
+        public Facture Facture { get; set; }
         public Service()
         {
             Id = ++_id;

@@ -34,6 +34,12 @@ namespace SalonCoiffure
             MainFrame.Navigate(new ServiceWindow());
         }
 
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new LoginWindow());
+            
+        }
+
 
     }
 }

@@ -13,7 +13,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Formulaire -->
+        
         <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
             <Label Content="Nom" />
             <TextBox Width="100" Margin="5" Text="{Binding SelectedService.Nom, UpdateSourceTrigger=PropertyChanged}" />

@@ -8,13 +8,13 @@
         Title="MainWindow" Height="650" Width="1000">
     <DockPanel >
 
-        <!-- Menu -->
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Background="LightGray" Height="50" >
             <Button Content="Clients" Width="100" Margin="5" Click="ClientsButton_Click" />
             <Button Content="Services" Width="100" Margin="5" Click="ServicesButton_Click"/>
+            <Button Content="Login" Width="100" Margin="5" Click="LoginButton_Click"/>
         </StackPanel>
 
-        <!-- Ici on navigue entre les pages -->
+        <!-- Permet de naviguer entre les pages -->
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </DockPanel>
 </Window>
