@@ -1,0 +1,49 @@
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\bin\Debug\net8.0-windows\dash_app.exe
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\bin\Debug\net8.0-windows\dash_app.deps.json
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\bin\Debug\net8.0-windows\dash_app.runtimeconfig.json
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\bin\Debug\net8.0-windows\dash_app.dll
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\bin\Debug\net8.0-windows\dash_app.pdb
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app_MarkupCompile.cache
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app_MarkupCompile.lref
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app.g.resources
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app.AssemblyInfoInputs.cache
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app.AssemblyInfo.cs
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app.csproj.CoreCompileInputs.cache
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app.dll
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\refint\dash_app.dll
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app.pdb
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\dash_app.genruntimeconfig.cache
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\dash_app\obj\Debug\net8.0-windows\ref\dash_app.dll
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\bin\Debug\net8.0-windows\dash_app.exe
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\bin\Debug\net8.0-windows\dash_app.deps.json
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\bin\Debug\net8.0-windows\dash_app.runtimeconfig.json
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\bin\Debug\net8.0-windows\dash_app.dll
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\bin\Debug\net8.0-windows\dash_app.pdb
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app_MarkupCompile.cache
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app_MarkupCompile.lref
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app.g.resources
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app.AssemblyInfoInputs.cache
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app.AssemblyInfo.cs
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app.csproj.CoreCompileInputs.cache
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app.sourcelink.json
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app.dll
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\refint\dash_app.dll
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app.pdb
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\dash_app.genruntimeconfig.cache
+C:\Users\kevyj\Desktop\work\experiments\csharp\Application-de-Facturation\dash_app\obj\Debug\net8.0-windows\ref\dash_app.dll
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\Application-de-Facturation\obj\Debug\net8.0-windows\FacturePage.g.cs
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\Application-de-Facturation\obj\Debug\net8.0-windows\ProfilePage.g.cs
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\Application-de-Facturation\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\Application-de-Facturation\obj\Debug\net8.0-windows\dash_app_MarkupCompile.cache
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\Application-de-Facturation\obj\Debug\net8.0-windows\dash_app_MarkupCompile.lref
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\Application-de-Facturation\obj\Debug\net8.0-windows\dash_app.dll
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\Application-de-Facturation\obj\Debug\net8.0-windows\refint\dash_app.dll
+C:\Users\2233405\OneDrive - Cégep Marie-Victorin\Desktop\h25\csharp\Application-de-Facturation\obj\Debug\net8.0-windows\dash_app.pdb
