@@ -50,8 +50,8 @@
                 </StackPanel>
             </StackPanel>
 
-          
-            <Button Grid.Column="2" Content="Login" Width="80" Height="30" Margin="10,0" Background="#FF479C91" Foreground="White"/>
+
+            <Button Click="LoginButton_Click" Grid.Column="2" Content="Login" Width="80" Height="30" Margin="10,0" Background="#FF479C91" Foreground="White"/>
         </Grid>
 
         
@@ -60,11 +60,11 @@
                    Background="#FF111F64" Foreground="#FF00FF1A" HorizontalAlignment="Center" Margin="10"/>
             <Button Content="Dashboard" Click="DashboardButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Clients" Click="ClientsButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
-            <Button Content="Factures" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
-            <Button Content="Paiements" Margin="20" Click="PaiementButton_Click" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+            <Button Content="Factures"  Click="FactureButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+            <Button Content="Paiements"  Click="PaiementButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Services" Click="ServicesButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Contact" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
-            <Button Content="Profile" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+            <Button Content="Profile" Click="ProfileButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Logout" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
         </StackPanel>
 

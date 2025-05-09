@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dash_app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46fcafda051384baae8267360abe7ebb5f57520e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf32b8a1ed40b70b62f738bfc2a405b2037fc7c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("dash_app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dash_app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

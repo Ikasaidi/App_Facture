@@ -79,7 +79,7 @@ namespace SalonCoiffure.ViewModel
         }
 
         [RelayCommand]
-        private void Add()
+        private async Task Add()
         {
             if (SelectedCustomer != null)
             {
@@ -90,36 +90,37 @@ namespace SalonCoiffure.ViewModel
                     Email = SelectedCustomer.Email,
                     Adresse = SelectedCustomer.Adresse
                 };
+                await _customerDataProvider.AddAsync(newCustomer);
 
                 Customers.Add(newCustomer);
                 FilteredCustomers.Add(newCustomer);
                 SelectedCustomer = new Customer();
-                
-            }
-        }
-        [RelayCommand]
-        private void Update() {
-            if (SelectedCustomer != null)
-            {
-                var index = Customers.IndexOf(SelectedCustomer);
-                if (index >= 0)
-                {
-                    Customers[index] = SelectedCustomer;
-                }
-            }
-        }
 
+            }
+        }
         [RelayCommand]
-        private void Delete()
+        private async Task Update()
         {
             if (SelectedCustomer != null)
             {
+                await _customerDataProvider.UpdateAsync(SelectedCustomer);
+                await LoadAsync();
+            }
+        }
+
+
+        [RelayCommand]
+        private async Task Delete()
+        {
+            if (SelectedCustomer != null)
+            {
+                await _customerDataProvider.DeleteAsync(SelectedCustomer);
                 Customers.Remove(SelectedCustomer);
                 FilteredCustomers.Remove(SelectedCustomer);
                 SelectedCustomer = new Customer();
             }
         }
 
-        
+
     }
 }

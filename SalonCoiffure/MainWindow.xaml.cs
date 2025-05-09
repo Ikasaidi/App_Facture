@@ -21,7 +21,7 @@ namespace SalonCoiffure
         public MainWindow()
         {
             InitializeComponent();
-           
+
         }
 
         private void ClientsButton_Click(object sender, RoutedEventArgs e)
@@ -48,6 +48,25 @@ namespace SalonCoiffure
         {
             MainFrame.Navigate(new PaiementPage());
         }
+
+        private void FactureButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new FacturePage());
+
+        }
+        private void ProfileButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ProfilePage());
+
+        }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ProfilePage());
+
+        }
+
+
 
     }
 }

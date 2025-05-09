@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,16 +12,30 @@ namespace SalonCoiffure.Data
     {
         public async Task<IEnumerable<Customer>?> GetAllAsync()
         {
-            await Task.Delay(1000);
+            using var context = new AppDbContext();
+            return await context.Customers.ToListAsync();
+        }
 
-            var customers = new List<Customer>()
-            {
-                new Customer { Nom = "Ikram", Telephone="123456789", Email="gmail@gmail.com" , Adresse= "123 rue test" },
-                new Customer { Nom = "Sara", Telephone = "123456789", Email = "gmail@gmail.com", Adresse= "123 rue test"},
-                new Customer { Nom = "Mehdi", Telephone = "123456789", Email = "gmail@gmail.com", Adresse = "123 rue test" }
 
-            };
-            return customers;
+        public async Task AddAsync(Customer customer)
+        {
+            using var context = new AppDbContext();
+            context.Customers.Add(customer);
+            await context.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(Customer customer)
+        {
+            using var context = new AppDbContext();
+            context.Customers.Update(customer);
+            await context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(Customer customer)
+        {
+            using var context = new AppDbContext();
+            context.Customers.Remove(customer);
+            await context.SaveChangesAsync();
         }
     }
 }

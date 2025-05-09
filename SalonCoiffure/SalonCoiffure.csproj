@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="a-l-l-e-f-v-i-n-i-c-i-u-s-343875-unsplash.png" />
+    <Resource Include="images\a-l-l-e-f-v-i-n-i-c-i-u-s-343875-unsplash.png" />
     <Resource Include="background.png" />
     <Resource Include="Online Payment.png" />
   </ItemGroup>

@@ -10,5 +10,8 @@ namespace SalonCoiffure.Data
     public interface ICustomerDataProvider
     {
         Task<IEnumerable<Customer>?> GetAllAsync();
+        Task AddAsync(Customer customer);
+        Task UpdateAsync(Customer customer);
+        Task DeleteAsync(Customer customer);
     }
 }
