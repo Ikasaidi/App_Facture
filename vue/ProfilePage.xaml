@@ -1,0 +1,144 @@
+﻿<Window x:Class="dash_app.ProfilePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dash_app"
+        mc:Ignorable="d"
+        Title="Profile" 
+        Height="700" Width="1000">
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="RoundedButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="8" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <StackPanel.Background>
+            <ImageBrush ImageSource="/images/DashStackApp-background.png"/>
+        </StackPanel.Background>
+        <Grid x:Name="NavbarGrid" Height="684" Width="120" HorizontalAlignment="Left">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Background="#111F64">
+                <Image Source="/images/DashStackLogo.png" Height="75"/>
+            </StackPanel>
+
+            <Button x:Name="NavbarOption1" Grid.Row="1" Content="Client" BorderThickness="0" Background="#111F64" Foreground="White" Click="navBar_OnClick" ClickMode="Press" />
+
+            <Button x:Name="NavbarOption2" Grid.Row="2" Content="Factures" BorderThickness="0" Background="#111F64" Foreground="White" Click="navBar_OnClick" ClickMode="Press" />
+
+            <Button x:Name="NavbarOption3" Grid.Row="3" Content="Paiements" BorderThickness="0" Background="#111F64" Foreground="White" Click="navBar_OnClick" ClickMode="Press" />
+
+            <Button x:Name="NavbarOption4" Grid.Row="4" Content="Service" BorderThickness="0" Background="#111F64" Foreground="White" Click="navBar_OnClick" ClickMode="Press" />
+
+            <Button x:Name="NavbarOption5" Grid.Row="5" Content="Contact" BorderThickness="0" Background="#111F64" Foreground="White" Click="navBar_OnClick" ClickMode="Press" />
+
+            <Button x:Name="NavbarOption6" Grid.Row="6" Content="Profil" BorderThickness="0" Background="#111F64" Foreground="#00C000" Click="navBar_OnClick" ClickMode="Press"/>
+
+            <Button x:Name="NavbarOption7" Grid.Row="7" Content="Settings" BorderThickness="0" Background="#111F64" Foreground="White" Click="navBar_OnClick" ClickMode="Press" />
+
+            <Button x:Name="NavbarOption8" Grid.Row="8" Content="Logout" BorderThickness="0" Background="#111F64" Foreground="White" Click="navBar_OnClick" ClickMode="Press" />
+        </Grid>
+
+        <Canvas>
+            <Image Source="/images/BlankAvatar.png" Height="100" Width="100" Canvas.Left="150" Canvas.Top="-656" />
+            <Label Canvas.Left="260" Canvas.Top="-657" Content="Profil" FontSize="50" />
+            <Grid Canvas.Left="144" Canvas.Top="-500">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <TextBox Grid.Row="0" Background="Transparent" BorderThickness="0" Text="Nom :" FontSize="20"/>
+                <TextBox Grid.Row="0" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Nom}"/>
+                <TextBox Grid.Row="1" Background="Transparent" BorderThickness="0" Text="Prenom :" FontSize="20"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Prenom}"/>
+                <TextBox Grid.Row="2" Background="Transparent" BorderThickness="0" Text="Telephone :" FontSize="20"/>
+                <TextBox Grid.Row="2" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Telephone}"/>
+                <TextBox Grid.Row="3" Background="Transparent" BorderThickness="0" Text="Email :" FontSize="20"/>
+                <TextBox Grid.Row="3" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Email}"/>
+            </Grid>
+        </Canvas>
+
+        <Canvas>
+            <Border Canvas.Left="900" Canvas.Top="-478" CornerRadius="5.0">
+                <Button Style="{DynamicResource RoundedButtonStyle}" Content="Nouvelle Action" Background="#3D42DF" BorderThickness="0" Padding="5" />
+            </Border>
+        </Canvas>
+
+        <Canvas>
+            <Label Canvas.Left="698" Canvas.Top="-495" Content="Activité" FontSize="30" Opacity="0.5"/>
+            <Border Canvas.Left="500" Canvas.Top="-445" BorderThickness="5" BorderBrush="White" Background="Gray" Opacity="0.5">
+                <TextBlock Width="495" Height="440" Text="{Binding FactureRecent}" Foreground="Black" />
+            </Border>
+        </Canvas>
+
+    </StackPanel>
+</Window>
