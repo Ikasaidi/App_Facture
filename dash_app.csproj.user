@@ -6,23 +6,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
-  <ItemGroup>
-    <Compile Update="FacturePage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="ServicePage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="FacturePage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="ProfilePage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="ServicePage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
 </Project>

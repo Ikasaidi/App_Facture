@@ -12,7 +12,7 @@ namespace dash_app.service
         static bool mailSent = false;
         private static void SendCompletedCallback(object sender, AsyncCompletedEventArgs e)
         {
-            string token = (string)e.UserState;
+            string token = (string) e.UserState;
 
             if (e.Cancelled)
             {
