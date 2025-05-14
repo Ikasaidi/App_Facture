@@ -10,7 +10,10 @@
       Title="FacturesPage">
 
     <StackPanel>
-        <Grid x:Name="NavbarGrid" Height="{x:Static SystemParameters.PrimaryScreenHeight}" Width="120" HorizontalAlignment="Left">
+        <StackPanel.Background>
+            <ImageBrush ImageSource="/images/Background.png" />
+        </StackPanel.Background>
+        <Grid x:Name="NavBarGrid" Height="{x:Static SystemParameters.PrimaryScreenHeight}" Width="120" HorizontalAlignment="Left">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
@@ -26,27 +29,11 @@
             <StackPanel Background="#111F64">
                 <Image Source="/images/DashStackLogo.png" Height="75"/>
             </StackPanel>
-
-            <Button x:Name="NavbarOption1" Grid.Row="1" Content="Client" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-            <Button x:Name="NavbarOption2" Grid.Row="2" Content="Factures" BorderThickness="0" Background="#111F64" Foreground="#00C000" ClickMode="Press" />
-
-            <Button x:Name="NavbarOption3" Grid.Row="3" Content="Paiements" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-            <Button x:Name="NavbarOption4" Grid.Row="4" Content="Service" BorderThickness="0" Background="#111F64" Foreground="White" ClickMode="Press" />
-
-            <Button x:Name="NavbarOption5" Grid.Row="5" Content="Contact" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-            <Button x:Name="NavbarOption6" Grid.Row="6" Content="Profile" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-            <Button x:Name="NavbarOption7" Grid.Row="7" Content="Settings" BorderThickness="0" Background="#111F64" Foreground="White" ClickMode="Press" />
-
-            <Button x:Name="NavbarOption8" Grid.Row="8" Content="Logout" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
         </Grid>
-        
-        
-        
-        
+
+
+
+
 
         <Canvas>
             <Label Content="Factures" FontSize="70" Canvas.Left="215" Canvas.Top="-646" Foreground="#7142D7"/>
@@ -72,7 +59,7 @@
                     FontSize="40" 
                     Foreground="Black"/>
 
-                
+
                 <TextBox 
                     Grid.Column="0"
                     Grid.Row="1"
@@ -86,24 +73,46 @@
             </Grid>
 
             <Button 
-                x:Name="Pdf_Btn" 
-                Content="Open as a pdf" 
-                Width="100" 
+                Content="Effacer"  
                 Padding="5" 
-                Background="#3D42DF" 
+                Background="Red" 
                 Foreground="White" 
-                Canvas.Left="615" 
-                Canvas.Top="-489" 
-                Click="PdfGenerator_Click"/>
+                Canvas.Left="265"
+                Canvas.Top="-507"
+                Click="DeleteFactures_Click"/>
             <Button 
-                Content="Send email" 
-                Width="100" 
+                Content="Ajouter"  
+                Padding="5" 
+                Background="#7142D7" 
+                Foreground="White" 
+                Canvas.Left="325"
+                Canvas.Top="-507"
+                Click="AddFactures_Click"/>
+            <Button 
+                Content="Modifier"  
+                Padding="5" 
+                Background="Green" 
+                Foreground="White" 
+                Canvas.Left="385"
+                Canvas.Top="-507"
+                Click="UpdateFactures_Click"/>
+
+            <Button 
+                Content="Ouvrir avec PDF" 
                 Padding="5" 
                 Background="#3D42DF" 
                 Foreground="White" 
-                Canvas.Left="510" 
-                Canvas.Top="-489"
-                Click="EmailSender_Click"/>
+                Canvas.Left="619" 
+                Canvas.Top="-507" 
+                Click="PdfGenerator_Click"/>
+            <Button
+                Content="Envoyer un email"
+                Padding="5" 
+                Background="#3D42DF" 
+                Foreground="White" 
+                Canvas.Left="490" 
+                Canvas.Top="-507"
+                Click="EmailFormOpener_Click"/>
         </Canvas>
 
         <Canvas>

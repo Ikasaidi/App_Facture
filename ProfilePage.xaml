@@ -9,7 +9,10 @@
         Width="{x:Static SystemParameters.PrimaryScreenWidth}"
         Title="Profile">
     <StackPanel>
-            <Grid Height="{x:Static SystemParameters.PrimaryScreenHeight}" Width="120" HorizontalAlignment="Left">
+        <StackPanel.Background>
+            <ImageBrush ImageSource="/images/Background.png" />
+        </StackPanel.Background>
+            <Grid x:Name="NavBarGrid" Height="{x:Static SystemParameters.PrimaryScreenHeight}" Width="120" HorizontalAlignment="Left">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -22,26 +25,10 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <StackPanel Background="#111F64">
-                    <Image Source="/images/DashStackLogo.png" Height="75"/>
-                </StackPanel>
-
-                <Button x:Name="NavbarOption1" Grid.Row="1" Content="Client" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-                <Button x:Name="NavbarOption2" Grid.Row="2" Content="Factures" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-                <Button x:Name="NavbarOption3" Grid.Row="3" Content="Paiements" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-                <Button x:Name="NavbarOption4" Grid.Row="4" Content="Service" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-                <Button x:Name="NavbarOption5" Grid.Row="5" Content="Contact" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-                <Button x:Name="NavbarOption6" Grid.Row="6" Content="Profile" BorderThickness="0" Background="#111F64" Foreground="#00C000"  ClickMode="Press"/>
-
-                <Button x:Name="NavbarOption7" Grid.Row="7" Content="Settings" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-
-                <Button x:Name="NavbarOption8" Grid.Row="8" Content="Logout" BorderThickness="0" Background="#111F64" Foreground="White"  ClickMode="Press" />
-            </Grid>
+            <StackPanel Background="#111F64">
+                <Image Source="/images/DashStackLogo.png" Height="75"/>
+            </StackPanel>
+        </Grid>
 
 
 
@@ -71,6 +58,14 @@
             </Canvas>
 
         <Canvas>
+            <Button
+                Content="Modifier mon profile"
+                Padding="5" 
+                Background="#3D42DF" 
+                Foreground="White" 
+                Canvas.Left="600" 
+                Canvas.Top="-507"
+                Click="UpdateProfile_Click"/>
             <Label Canvas.Left="881" Canvas.Top="-527" Content="Activité" FontSize="30" Opacity="0.5"/>
                 <Border Width="700" BorderThickness="5" BorderBrush="White" Background="Gray" Opacity="0.5" Canvas.Left="585" Canvas.Top="-460">
                     <TextBlock Height="440" Text="{Binding FactureRecent}" Foreground="Black" Margin="5,0,-5,0" />
