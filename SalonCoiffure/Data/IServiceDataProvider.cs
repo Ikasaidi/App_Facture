@@ -10,5 +10,10 @@ namespace SalonCoiffure.Data
     public interface IServiceDataProvider
     {
         Task<IEnumerable<Service>?> GetAllAsync();
+        Task<IEnumerable<Service>> GetAvailableServicesAsync();
+
+        Task AddAsync(Service service);
+        Task UpdateAsync(Service service);
+        Task DeleteAsync(Service service);
     }
 }

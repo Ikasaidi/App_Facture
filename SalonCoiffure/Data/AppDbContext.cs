@@ -8,8 +8,8 @@ namespace SalonCoiffure.Data
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Facture> Factures { get; set; }
-       
-
+        public DbSet<Paiement> Paiements { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
@@ -20,16 +20,27 @@ namespace SalonCoiffure.Data
         {
             base.OnModelCreating(modelBuilder);
 
+            
             modelBuilder.Entity<Customer>()
                 .HasMany(c => c.Factures)
                 .WithOne(f => f.Customer)
                 .HasForeignKey(f => f.CustomerId);
 
+
             modelBuilder.Entity<Facture>()
                 .HasMany(f => f.Services)
-                .WithOne(s => s.Facture)
-                .HasForeignKey(s => s.FactureId);
-        }
+                .WithMany(s => s.Factures)
+                .UsingEntity<Dictionary<string, object>>(
+                        "FactureService",  // Nom de la table de jointure en arrière-plan
+                        j => j.HasOne<Service>().WithMany().HasForeignKey("ServiceId"),
+                        j => j.HasOne<Facture>().WithMany().HasForeignKey("FactureId")
+    );
 
+
+            modelBuilder.Entity<Facture>()
+                .HasOne(f => f.Paiement)
+                .WithOne(p => p.Facture)
+                .HasForeignKey<Paiement>(p => p.FactureId);
+        }
     }
 }

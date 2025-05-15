@@ -12,6 +12,8 @@
             <Button Content="Clients" Width="100" Margin="5" Click="ClientsButton_Click" />
             <Button Content="Services" Width="100" Margin="5" Click="ServicesButton_Click"/>
             <Button Content="Login" Width="100" Margin="5" Click="LoginButton_Click"/>
+            <Button Content="Facture" Width="100" Margin="5" Click="FactureButton_Click"/>
+            <Button Content="Paiement" Width="100" Margin="5" Click="PaiementButton_Click"/>
         </StackPanel>
 
         <!-- Permet de naviguer entre les pages -->

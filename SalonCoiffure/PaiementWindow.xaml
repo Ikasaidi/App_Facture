@@ -1,0 +1,43 @@
+﻿<Page x:Class="SalonCoiffure.PaiementWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Paiement">
+
+    <StackPanel Margin="20" Width="400">
+
+        <TextBlock Text="Sélectionnez une facture:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <ComboBox ItemsSource="{Binding Factures}"
+                  SelectedItem="{Binding SelectedFacture, Mode=TwoWay}"
+                  DisplayMemberPath="Id"
+                  Margin="0,0,0,20"/>
+
+        <TextBlock Text="Montant:" FontWeight="Bold" />
+        <TextBox Text="{Binding Montant, Mode=TwoWay}" IsReadOnly="True" Margin="0,0,0,20"/>
+
+        <TextBlock Text="Mode de paiement:" FontWeight="Bold" Margin="0,0,0,5"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+            <Button Content="Carte" Width="100" Margin="5"
+                    Command="{Binding SelectModePaiementCommand}"
+                    CommandParameter="Carte"
+                    Background="{Binding CarteButtonBackground}"/>
+            <Button Content="Virement" Width="100" Margin="5"
+                    Command="{Binding SelectModePaiementCommand}"
+                    CommandParameter="Virement"
+                    Background="{Binding VirementButtonBackground}"/>
+            <Button Content="Google/Apple Pay" Width="150" Margin="5"
+                    Command="{Binding SelectModePaiementCommand}"
+                    CommandParameter="Google/Apple Pay"
+                    Background="{Binding GoogleAppleButtonBackground}"/>
+        </StackPanel>
+
+        <Button Content="Enregistrer le paiement"
+                Command="{Binding EnregistrerPaiementCommand}"
+                HorizontalAlignment="Center"
+                Width="200"
+                Height="35" />
+
+        <TextBlock Text="{Binding Message}" Foreground="Red" Margin="0,10,0,0" TextWrapping="Wrap"/>
+
+    </StackPanel>
+</Page>

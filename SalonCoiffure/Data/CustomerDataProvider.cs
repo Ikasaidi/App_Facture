@@ -10,6 +10,12 @@ namespace SalonCoiffure.Data
 {
     class CustomerDataProvider : ICustomerDataProvider
     {
+        private readonly AppDbContext _context;
+
+        public CustomerDataProvider(AppDbContext context)
+        {
+            _context = context;
+        }
         public async Task<IEnumerable<Customer>?> GetAllAsync()
         {
             using var context = new AppDbContext();

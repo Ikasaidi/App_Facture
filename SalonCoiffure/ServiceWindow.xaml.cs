@@ -5,12 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using SalonCoiffure.Data;
 using SalonCoiffure.ViewModel;
 
@@ -22,13 +16,14 @@ namespace SalonCoiffure
     public partial class ServiceWindow : Page
     {
         private ServiceViewModel _viewModel;
+
         public ServiceWindow()
         {
             InitializeComponent();
-            _viewModel = new ServiceViewModel(new ServiceDataProvider());
+            var db = new AppDbContext();
+            _viewModel = new ServiceViewModel(new ServiceDataProvider(db)); 
             DataContext = _viewModel;
             Loaded += OnLoaded;
-
         }
 
         private async void OnLoaded(object sender, RoutedEventArgs e)

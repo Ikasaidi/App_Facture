@@ -40,6 +40,18 @@ namespace SalonCoiffure
             
         }
 
+        private void FactureButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ReceiptWindow());
+
+        }
+        
+        private void PaiementButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new PaiementWindow());
+
+        }
+
 
     }
 }

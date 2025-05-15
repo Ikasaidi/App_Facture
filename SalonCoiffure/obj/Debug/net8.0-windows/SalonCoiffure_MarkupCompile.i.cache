@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\chadi\OneDrive\Bureau\Hiver25\Entreprise\Final\SalonCoiffure\SalonCoiffure\App.xaml
-41311958258
+61837651912
 
-20993983606
+3044760529
 223-1538334831
-CustomerPage.xaml;LoginWindow.xaml;MainWindow.xaml;ServiceWindow.xaml;
+CustomerPage.xaml;LoginWindow.xaml;MainWindow.xaml;PaiementWindow.xaml;ReceiptWindow.xaml;ServiceWindow.xaml;
 
-True
+False
 

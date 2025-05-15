@@ -195,3 +195,7 @@ C:\Users\chadi\OneDrive\Bureau\Hiver25\Entreprise\Final\SalonCoiffure\SalonCoiff
 C:\Users\chadi\OneDrive\Bureau\Hiver25\Entreprise\Final\SalonCoiffure\SalonCoiffure\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\chadi\OneDrive\Bureau\Hiver25\Entreprise\Final\SalonCoiffure\SalonCoiffure\obj\Debug\net8.0-windows\LoginWindow.g.cs
 C:\Users\chadi\OneDrive\Bureau\Hiver25\Entreprise\Final\SalonCoiffure\SalonCoiffure\obj\Debug\net8.0-windows\LoginWindow.baml
+C:\Users\chadi\OneDrive\Bureau\Hiver25\Entreprise\Final\SalonCoiffure\SalonCoiffure\obj\Debug\net8.0-windows\ReceiptWindow.g.cs
+C:\Users\chadi\OneDrive\Bureau\Hiver25\Entreprise\Final\SalonCoiffure\SalonCoiffure\obj\Debug\net8.0-windows\ReceiptWindow.baml
+C:\Users\chadi\OneDrive\Bureau\Hiver25\Entreprise\Final\SalonCoiffure\SalonCoiffure\obj\Debug\net8.0-windows\PaiementWindow.baml
+C:\Users\chadi\OneDrive\Bureau\Hiver25\Entreprise\Final\SalonCoiffure\SalonCoiffure\obj\Debug\net8.0-windows\PaiementWindow.g.cs

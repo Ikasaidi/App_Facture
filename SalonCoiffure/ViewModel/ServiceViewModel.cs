@@ -75,7 +75,7 @@ namespace SalonCoiffure.ViewModel
         }
 
         [RelayCommand]
-        private void Add()
+        private async Task Add()
         {
             if (SelectedService != null)
             {
@@ -84,6 +84,9 @@ namespace SalonCoiffure.ViewModel
                     Nom = SelectedService.Nom,
                     Prix = SelectedService.Prix
                 };
+
+                
+                await _serviceDataProvider.AddAsync(newService);
 
                 Services.Add(newService);
                 FilteredServices.Add(newService);

@@ -1,31 +1,19 @@
 ﻿namespace SalonCoiffure.Model
 {
-
-        public class Facture
-        {
-
-        private static int _id = 0;
-
+    public class Facture
+    {
         public int Id { get; set; }
+        public DateTime Date { get; set; }
+        public double PrixTotal { get; set; }
 
-            public DateTime Date { get; set; }
+        // FK
+        public int CustomerId { get; set; }
+        public Customer Customer { get; set; }
 
-            public decimal Montant { get; set; }
+        // Collection de services associés à cette facture
+        public ICollection<Service> Services { get; set; } = new List<Service>();
 
-            // FK
-            public int CustomerId { get; set; }
+        public Paiement Paiement { get; set; }
+    }
 
-            
-            public Customer Customer { get; set; }
-
-            public ICollection<Service> Services { get; set; } = new List<Service>();
-
-
-        public Facture()
-        {
-            Id = ++_id;
-
-        }
-        }
-    
 }

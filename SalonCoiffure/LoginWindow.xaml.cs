@@ -11,20 +11,21 @@ namespace SalonCoiffure
     public partial class LoginWindow : Page
     {
         private CustomerViewModel _viewModel;
+
         public LoginWindow()
         {
             InitializeComponent();
-            _viewModel = new CustomerViewModel(new CustomerDataProvider());
+            var db = new AppDbContext();
+            _viewModel = new CustomerViewModel(new CustomerDataProvider(db)); // Stocker l'instance dans _viewModel
             DataContext = _viewModel;
             Loaded += OnLoaded;
         }
-
-       
 
         private async void OnLoaded(object sender, RoutedEventArgs e)
         {
             await _viewModel.LoadAsync();
         }
+
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
             var username = UsernameTextBox.Text;
@@ -32,9 +33,9 @@ namespace SalonCoiffure
 
             using (var db = new AppDbContext())
             {
-                var client = db.Customers.FirstOrDefault(c => c.Username == username && c.Password == password);
+                var user = db.Users.FirstOrDefault(u => u.Username == username && u.Password == password);
 
-                if (client != null)
+                if (user != null)
                 {
                     MessageBox.Show("Login successful!");
                     // proceed to main window or dashboard
@@ -43,7 +44,6 @@ namespace SalonCoiffure
                 {
                     MessageBox.Show("Invalid username or password.");
                 }
-
             }
         }
     }
