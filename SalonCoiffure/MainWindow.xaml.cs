@@ -39,14 +39,20 @@ namespace SalonCoiffure
 
         }
 
-        private void DashboardButton_Click(object sender, RoutedEventArgs e)
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new DashboardPage());
+            MainFrame.Navigate(new HomePage());
         }
 
         private void PaiementButton_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new PaiementPage());
+        }
+
+        private void ContactButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new ContactPage());
+
         }
 
         private void FactureButton_Click(object sender, RoutedEventArgs e)
@@ -62,7 +68,7 @@ namespace SalonCoiffure
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new ProfilePage());
+            MainFrame.Navigate(new LoginPage());
 
         }
 

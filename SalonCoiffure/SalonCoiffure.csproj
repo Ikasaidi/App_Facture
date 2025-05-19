@@ -15,18 +15,28 @@
   <ItemGroup>
     <None Remove="a-l-l-e-f-v-i-n-i-c-i-u-s-343875-unsplash.png" />
     <None Remove="background.png" />
+    <None Remove="Barbershop.png" />
+    <None Remove="image 1.png" />
     <None Remove="Online Payment.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\Barbershop.png" />
+    <Resource Include="images\image 1.png" />
     <Resource Include="images\a-l-l-e-f-v-i-n-i-c-i-u-s-343875-unsplash.png" />
-    <Resource Include="background.png" />
-    <Resource Include="Online Payment.png" />
+    <Resource Include="images\background.png" />
+    <Resource Include="images\Online Payment.png" />
   </ItemGroup>
 
 </Project>

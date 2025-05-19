@@ -14,7 +14,6 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- Formulaire de saisie -->
         <WrapPanel Orientation="Horizontal" Margin="0,0,0,10" HorizontalAlignment="Center">
             <Label Content="Nom" Foreground="White" FontFamily="Georgia" VerticalAlignment="Center" FontSize="20"/>
             <TextBox Width="120" Margin="5" Text="{Binding SelectedCustomer.Nom, UpdateSourceTrigger=PropertyChanged}" Background="#FFA2D0B9" FontSize="14" FontFamily="Georgia" Foreground="White"/>
@@ -29,8 +28,10 @@
             <TextBox Width="160" Margin="5" Text="{Binding SelectedCustomer.Adresse, UpdateSourceTrigger=PropertyChanged}" Background="#FFA2D0B9" FontSize="14" FontFamily="Georgia" Foreground="White"/>
         </WrapPanel>
 
-        <!-- Tableau des clients -->
+     
         <DataGrid Grid.Row="1"
+                  Width="826"
+                  Height="476"
                   ItemsSource="{Binding FilteredCustomers}"
                   SelectedItem="{Binding SelectedCustomer}"
                   AutoGenerateColumns="False"
@@ -48,7 +49,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- Boutons de gestion -->
+     
         <WrapPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
             <Button Content="Ajouter" Command="{Binding AddCommand}" Margin="5" Background="#FF286B8A" Foreground="White" FontFamily="Georgia" FontSize="14"/>
             <Button Content="Modifier" Command="{Binding UpdateCommand}" Margin="5" Background="#FF286B8A" Foreground="White" FontFamily="Georgia" FontSize="14"/>

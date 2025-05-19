@@ -1,19 +1,7 @@
 ﻿using SalonCoiffure.Data;
 using SalonCoiffure.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace SalonCoiffure
 {
@@ -42,12 +30,13 @@ namespace SalonCoiffure
 
             using (var db = new AppDbContext())
             {
-                var client = db.Customers.FirstOrDefault(c => c.Username == username && c.Password == password);
+                var user = db.Users.FirstOrDefault(u => u.Username == username && u.Password == password);
 
-                if (client != null)
+                if (user != null)
                 {
-                    MessageBox.Show("Login successful!");
-                    // proceed to main window or dashboard
+                    var profilePage = new ProfilePage(user);
+                    NavigationService?.Navigate(profilePage);
+
                 }
                 else
                 {

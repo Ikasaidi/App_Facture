@@ -1,9 +1,5 @@
 ﻿using SalonCoiffure.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows;
 
 namespace SalonCoiffure.Data
 {
@@ -11,32 +7,52 @@ namespace SalonCoiffure.Data
     {
         public static void InitializeDatabase()
         {
-            using var context = new AppDbContext();
-            context.Database.EnsureDeleted();
-            context.Database.EnsureCreated(); // Crée la base si elle n'existe pas
-
-            // Insère des comptes de test si la table est vide
-            if (!context.Customers.Any())
+            try
             {
-                context.Customers.AddRange(
-                    new Customer { Username = "admin", Password = "123", Nom = "Chadi", Email = "chadi123@col.com", Telephone = "5145556325", Adresse = "123 rue allo" },
-                    new Customer { Username = "emp", Password = "emp123", Nom = "Chadi", Email = "chadi123@col.com", Telephone = "5145556325", Adresse = "123 rue allo" }
+                using var context = new AppDbContext();
 
-                );
-                context.SaveChanges();
+                context.Database.EnsureCreated();
+
+                if (!context.Users.Any())
+                {
+                    context.Users.AddRange(
+                        new User { Username = "admin", Password = "123", Prenom = "Terrieur", Nom = "Alex", Email = "alex123@col.com", Telephone = "5145556325" },
+                        new User { Username = "emp", Password = "emp123", Prenom = "John", Nom = "Doe", Email = "john123@col.com", Telephone = "5145556325" }
+
+
+
+                    );
+                    context.SaveChanges();
+                }
+                if (!context.Services.Any())
+                {
+                    context.Services.AddRange(
+                          new Service { Nom = "Coupe cheveux", Prix = 25.00m },
+                          new Service { Nom = "Coloration", Prix = 50.00m },
+                          new Service { Nom = "Soin capillaire", Prix = 40.00m }
+                        );
+                    context.SaveChanges();
+                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur DB : " + ex.Message);
+            }
+
         }
 
         public static bool ValidateLogin(string username, string password)
         {
             using var context = new AppDbContext();
 
-            var client = context.Customers
-                .FirstOrDefault(c => c.Username == username && c.Password == password);
+            var user = context.Users
+                .FirstOrDefault(u => u.Username == username && u.Password == password);
 
-            return client != null;
+            return user != null;
         }
 
 
     }
 }
+
+

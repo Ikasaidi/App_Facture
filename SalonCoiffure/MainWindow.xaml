@@ -34,7 +34,7 @@
            
             <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,10,0">
                 
-                <Image Source="/a-l-l-e-f-v-i-n-i-c-i-u-s-343875-unsplash.png"
+                <Image Source="/images/a-l-l-e-f-v-i-n-i-c-i-u-s-343875-unsplash.png"
                Width="40" Height="40" Margin="0,0,8,0"
                Stretch="UniformToFill" 
                ClipToBounds="True">
@@ -56,21 +56,22 @@
 
         
         <StackPanel Grid.Column="0" Background="#FF111F64" Grid.RowSpan="2">
-            <Label Content="DashStack" FontFamily="Cambria Math" FontSize="20" 
-                   Background="#FF111F64" Foreground="#FF00FF1A" HorizontalAlignment="Center" Margin="10"/>
-            <Button Content="Dashboard" Click="DashboardButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+            <Label Content="SalonBill" FontFamily="Cambria Math" FontSize="36" 
+                   Background="#FF111F64" Foreground="#BA7979" HorizontalAlignment="Center" Margin="10"
+                   />
+            <Button Content="Home" Click="HomeButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Clients" Click="ClientsButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Factures"  Click="FactureButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Paiements"  Click="PaiementButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Services" Click="ServicesButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
-            <Button Content="Contact" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+            <Button Content="Contact"  Click="ContactButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Profile" Click="ProfileButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Logout" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
         </StackPanel>
 
         <Frame x:Name="MainFrame" Grid.Row="1" Grid.Column="1" NavigationUIVisibility="Hidden" Margin="10"/>
         <Grid.Background>
-            <ImageBrush ImageSource="/background.PNG"/>
+            <ImageBrush ImageSource="/images/background.png"/>
         </Grid.Background>
 
 

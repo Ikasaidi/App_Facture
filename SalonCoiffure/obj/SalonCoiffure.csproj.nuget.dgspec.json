@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\6263018\\OneDrive - Cégep Marie-Victorin\\Hiver 2025\\Développement d'applications pour entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {}
+    "C:\\Users\\yisla\\OneDrive\\Documents\\Projet Entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\6263018\\OneDrive - Cégep Marie-Victorin\\Hiver 2025\\Développement d'applications pour entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {
+    "C:\\Users\\yisla\\OneDrive\\Documents\\Projet Entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6263018\\OneDrive - Cégep Marie-Victorin\\Hiver 2025\\Développement d'applications pour entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
+        "projectUniqueName": "C:\\Users\\yisla\\OneDrive\\Documents\\Projet Entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
         "projectName": "SalonCoiffure",
-        "projectPath": "C:\\Users\\6263018\\OneDrive - Cégep Marie-Victorin\\Hiver 2025\\Développement d'applications pour entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
-        "packagesPath": "C:\\Users\\6263018\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6263018\\OneDrive - Cégep Marie-Victorin\\Hiver 2025\\Développement d'applications pour entreprise\\App_Facture\\SalonCoiffure\\obj\\",
+        "projectPath": "C:\\Users\\yisla\\OneDrive\\Documents\\Projet Entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
+        "packagesPath": "C:\\Users\\yisla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yisla\\OneDrive\\Documents\\Projet Entreprise\\App_Facture\\SalonCoiffure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\6263018\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yisla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -56,7 +56,21 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.119, )"
             }
           },
           "imports": [
@@ -78,7 +92,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

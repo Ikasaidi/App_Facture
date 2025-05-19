@@ -41,13 +41,13 @@
                         <RowDefinition Height="100"/>
                     </Grid.RowDefinitions>
                     <TextBox Grid.Row="0" Background="Transparent" BorderThickness="0" Text="Nom :" FontSize="20"/>
-                    <TextBox Grid.Row="0" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Nom}"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Nom, Mode=OneWay}" IsReadOnly="True"/>
                     <TextBox Grid.Row="1" Background="Transparent" BorderThickness="0" Text="Prenom :" FontSize="20"/>
-                    <TextBox Grid.Row="1" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Prenom}"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Prenom, Mode=OneWay}" IsReadOnly="True"/>
                     <TextBox Grid.Row="2" Background="Transparent" BorderThickness="0" Text="Telephone :" FontSize="20"/>
-                    <TextBox Grid.Row="2" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Telephone}"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Telephone, Mode=OneWay}" IsReadOnly="True"/>
                     <TextBox Grid.Row="3" Background="Transparent" BorderThickness="0" Text="Email :" FontSize="20"/>
-                    <TextBox Grid.Row="3" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Email}"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" Background="Transparent" BorderThickness="0" Text="{Binding Email, Mode=OneWay}" IsReadOnly="True"/>
                 </Grid>
             </Canvas>
 

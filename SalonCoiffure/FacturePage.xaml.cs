@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using SalonCoiffure.Data;
+using SalonCoiffure.Model;
+using SalonCoiffure.ViewModel;
+using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace SalonCoiffure
 {
@@ -20,9 +13,35 @@ namespace SalonCoiffure
     /// </summary>
     public partial class FacturePage : Page
     {
+        
+        private readonly FactureViewModel _viewModel;
+
         public FacturePage()
         {
             InitializeComponent();
+
+            var db = new AppDbContext();
+
+            
+            var customerProvider = new CustomerDataProvider(); 
+            var serviceProvider = new ServiceDataProvider(db);
+            var factureProvider = new FactureDataProvider(db); 
+
+            _viewModel = new FactureViewModel(customerProvider, serviceProvider, factureProvider);
+            DataContext = _viewModel;
+
+            Loaded += ReceiptWindow_Loaded;
+        }
+
+        private async void ReceiptWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            await _viewModel.LoadAsync();
+        }
+
+        private void ServicesListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selectedServices = ServicesListBox.SelectedItems.Cast<Service>().ToList();
+            _viewModel.UpdateSelectedServices(selectedServices);
         }
     }
 }
