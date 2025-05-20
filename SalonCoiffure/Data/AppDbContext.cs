@@ -5,6 +5,8 @@ namespace SalonCoiffure.Data
 {
     public class AppDbContext : DbContext
     {
+     
+
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Facture> Factures { get; set; }

@@ -92,25 +92,22 @@ namespace SalonCoiffure.ViewModel
         }
 
         [RelayCommand]
-        private void Update()
+        private async Task Update()
         {
             if (SelectedService != null)
             {
-                var index = Services.IndexOf(SelectedService);
-                if (index >= 0)
-                {
-                    Services[index] = SelectedService;
-                }
+                await _serviceDataProvider.UpdateAsync(SelectedService);
+                await LoadAsync();
             }
         }
 
         [RelayCommand]
-        private void Delete()
+        private async Task Delete()
         {
             if (SelectedService != null)
             {
-                Services.Remove(SelectedService);
-                FilteredServices.Remove(SelectedService);
+                await _serviceDataProvider.DeleteAsync(SelectedService); 
+                await LoadAsync();
                 SelectedService = new Service();
             }
         }

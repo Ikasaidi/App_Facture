@@ -11,9 +11,12 @@ namespace SalonCoiffure
     public partial class LoginPage : Page
     {
         private CustomerViewModel _viewModel;
-        public LoginPage()
+        private MainWindow _mainWindow;
+
+        public LoginPage(MainWindow mainWindow)
         {
             InitializeComponent();
+            _mainWindow = mainWindow;
             _viewModel = new CustomerViewModel(new CustomerDataProvider());
             DataContext = _viewModel;
             Loaded += OnLoaded;
@@ -36,6 +39,8 @@ namespace SalonCoiffure
                 {
                     var profilePage = new ProfilePage(user);
                     NavigationService?.Navigate(profilePage);
+                    _mainWindow.CurrentUser = user;
+                    
 
                 }
                 else

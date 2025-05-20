@@ -26,7 +26,7 @@
            
             <DataGrid Grid.Row="1"
                       Width="826"
-                      Height="476"
+                      Height="400"
                       ItemsSource="{Binding FilteredServices}"
                       SelectedItem="{Binding SelectedService}"
                       AutoGenerateColumns="False"

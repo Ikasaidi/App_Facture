@@ -3347,23 +3347,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yisla\\.nuget\\packages\\": {},
+    "C:\\Users\\chadi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yisla\\OneDrive\\Documents\\Projet Entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
+      "projectUniqueName": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
       "projectName": "SalonCoiffure",
-      "projectPath": "C:\\Users\\yisla\\OneDrive\\Documents\\Projet Entreprise\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
-      "packagesPath": "C:\\Users\\yisla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yisla\\OneDrive\\Documents\\Projet Entreprise\\App_Facture\\SalonCoiffure\\obj\\",
+      "projectPath": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
+      "packagesPath": "C:\\Users\\chadi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\yisla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3438,7 +3438,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

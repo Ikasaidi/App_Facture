@@ -115,8 +115,7 @@ namespace SalonCoiffure.ViewModel
             if (SelectedCustomer != null)
             {
                 await _customerDataProvider.DeleteAsync(SelectedCustomer);
-                Customers.Remove(SelectedCustomer);
-                FilteredCustomers.Remove(SelectedCustomer);
+                await LoadAsync();
                 SelectedCustomer = new Customer();
             }
         }

@@ -43,11 +43,12 @@
                     </Image.Clip>
                 </Image>
 
-              
+
                 <StackPanel Orientation="Vertical">
-                    <Label Content="Moni Roy" FontWeight="Bold" FontSize="14" />
-                    <Label Content="Client" FontSize="12" />
-                </StackPanel>
+                    <Label Content="{Binding UserFullName}" FontWeight="Bold" FontSize="14" />
+                    <Label Content="Utilisateur" FontSize="12" />
+            </StackPanel>
+
             </StackPanel>
 
 
@@ -66,7 +67,7 @@
             <Button Content="Services" Click="ServicesButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Contact"  Click="ContactButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
             <Button Content="Profile" Click="ProfileButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
-            <Button Content="Logout" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
+            <Button Content="Logout" Click="LogoutButton_Click" Margin="20" Background="Transparent" Foreground="White" BorderBrush="Transparent"/>
         </StackPanel>
 
         <Frame x:Name="MainFrame" Grid.Row="1" Grid.Column="1" NavigationUIVisibility="Hidden" Margin="10"/>

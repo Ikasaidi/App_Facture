@@ -60,8 +60,7 @@
                     Command="{Binding SelectModePaiementCommand}"
                     CommandParameter="Google/Apple Pay"
                     Background="{Binding GoogleAppleButtonBackground}"/>
-                <Button Content="Enregistrer" Height="45" Margin="0,0,0,20" Background="#CCCCCC" Foreground="Black" Width="160" Command="{Binding EnregistrerPaiementCommand}"/>
-                <Button Content="Payer" Height="50" Background="#3D42DF" Foreground="White" FontSize="16" FontWeight="Bold" Width="239"/>
+                <Button Content="Payer" Height="50" Background="#3D42DF" Foreground="White" FontSize="16" FontWeight="Bold" Width="239" Command="{Binding EnregistrerPaiementCommand}"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>
