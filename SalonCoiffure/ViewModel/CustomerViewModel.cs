@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using SalonCoiffure.Data;
@@ -18,6 +19,9 @@ namespace SalonCoiffure.ViewModel
 
         [ObservableProperty]
         private Customer _selectedCustomer;
+        
+        [ObservableProperty]
+        private Customer newCustomer = new Customer();
 
         [ObservableProperty]
         private string searchText;
@@ -81,30 +85,52 @@ namespace SalonCoiffure.ViewModel
         [RelayCommand]
         private async Task Add()
         {
-            if (SelectedCustomer != null)
+            if (SelectedCustomer == null)
             {
-                var newCustomer = new Customer
-                {
-                    Nom = SelectedCustomer.Nom,
-                    Telephone = SelectedCustomer.Telephone,
-                    Email = SelectedCustomer.Email,
-                    Adresse = SelectedCustomer.Adresse
-                };
-                await _customerDataProvider.AddAsync(newCustomer);
-
-                Customers.Add(newCustomer);
-                FilteredCustomers.Add(newCustomer);
-                SelectedCustomer = new Customer();
-
+                MessageBox.Show("Le champ Nom est requis.");
+                return;
             }
+
+            if (string.IsNullOrWhiteSpace(SelectedCustomer.Nom))
+            {
+                
+                MessageBox.Show("Le nom est obligatoire.", "Erreur");
+                return;
+            }
+
+            var newCustomer = new Customer
+            {
+                Nom = SelectedCustomer.Nom,
+                Telephone = SelectedCustomer.Telephone,
+                Email = SelectedCustomer.Email,
+                Adresse = SelectedCustomer.Adresse
+            };
+
+            await _customerDataProvider.AddAsync(newCustomer);
+
+            Customers.Add(newCustomer);
+            FilteredCustomers.Add(newCustomer);
+
+            SelectedCustomer = new Customer();
         }
+
         [RelayCommand]
         private async Task Update()
         {
-            if (SelectedCustomer != null)
+            if (SelectedCustomer == null)
+            {
+                MessageBox.Show("Veuillez sélectionner un client à modifier.");
+                return;
+            }
+
+            try
             {
                 await _customerDataProvider.UpdateAsync(SelectedCustomer);
                 await LoadAsync();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erreur lors de la mise à jour" );
             }
         }
 
@@ -112,14 +138,25 @@ namespace SalonCoiffure.ViewModel
         [RelayCommand]
         private async Task Delete()
         {
-            if (SelectedCustomer != null)
+            if (SelectedCustomer == null)
+            {
+                MessageBox.Show("Veuillez sélectionner un client à supprimer.");
+                return;
+            }
+
+        
+
+            try
             {
                 await _customerDataProvider.DeleteAsync(SelectedCustomer);
                 await LoadAsync();
-                SelectedCustomer = new Customer();
+                SelectedCustomer = null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erreur lors de la suppression");
             }
         }
-
 
     }
 }

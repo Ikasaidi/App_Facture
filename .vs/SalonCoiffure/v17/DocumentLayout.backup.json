@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\viewmodel\\factureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\viewmodel\\factureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\viewmodel\\paiementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\viewmodel\\paiementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\servicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\servicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\servicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\servicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\viewmodel\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\viewmodel\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\data\\servicedataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\data\\servicedataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{7EC823B1-80EE-4ABA-86E8-2D16BA0C568E}|SalonCoiffure.Tests\\SalonCoiffure.Tests.csproj|solutionrelative:saloncoiffure.tests\\tests\\logintest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\data\\servicedataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\data\\servicedataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\data\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,24 +91,8 @@
       "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\viewmodel\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\viewmodel\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\viewmodel\\serviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\viewmodel\\factureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\viewmodel\\factureviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\data\\iservicedataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\data\\iservicedataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\servicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|solutionrelative:saloncoiffure\\servicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0CA72EC-E0D9-4C11-8D92-6D44FF69944C}|SalonCoiffure\\SalonCoiffure.csproj|c:\\users\\chadi\\onedrive\\bureau\\hiver25\\dev\\app_facture\\saloncoiffure\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -120,7 +132,7 @@
         },
         {
           "DockedWidth": 432,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -132,20 +144,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "SalonCoiffure\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\MainWindow.xaml.cs",
-              "RelativeToolTip": "SalonCoiffure\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PaiementViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\PaiementViewModel.cs",
+              "RelativeDocumentMoniker": "SalonCoiffure\\ViewModel\\PaiementViewModel.cs",
+              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\PaiementViewModel.cs",
+              "RelativeToolTip": "SalonCoiffure\\ViewModel\\PaiementViewModel.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:22:40.456Z",
+              "WhenOpened": "2025-05-20T19:04:01.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ServiceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SalonCoiffure\\ServiceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ServiceWindow.xaml.cs",
+              "RelativeToolTip": "SalonCoiffure\\ServiceWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T19:13:04.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FactureViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\FactureViewModel.cs",
+              "RelativeDocumentMoniker": "SalonCoiffure\\ViewModel\\FactureViewModel.cs",
+              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\FactureViewModel.cs",
+              "RelativeToolTip": "SalonCoiffure\\ViewModel\\FactureViewModel.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:02:42.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "ServiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\ServiceViewModel.cs",
+              "RelativeDocumentMoniker": "SalonCoiffure\\ViewModel\\ServiceViewModel.cs",
+              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\ServiceViewModel.cs",
+              "RelativeToolTip": "SalonCoiffure\\ViewModel\\ServiceViewModel.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAwGcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T15:54:19.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "SalonCoiffure\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ProfilePage.xaml",
+              "RelativeToolTip": "SalonCoiffure\\ProfilePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-20T17:21:12.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ProfilePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\ProfilePage.xaml.cs",
@@ -153,48 +212,56 @@
               "RelativeToolTip": "SalonCoiffure\\ProfilePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:21:30.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T17:21:30.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProfilePage.xaml",
-              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ProfilePage.xaml",
-              "RelativeDocumentMoniker": "SalonCoiffure\\ProfilePage.xaml",
-              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ProfilePage.xaml",
-              "RelativeToolTip": "SalonCoiffure\\ProfilePage.xaml",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SalonCoiffure\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SalonCoiffure\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:22:40.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\CustomerPage.xaml",
+              "RelativeDocumentMoniker": "SalonCoiffure\\CustomerPage.xaml",
+              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\CustomerPage.xaml",
+              "RelativeToolTip": "SalonCoiffure\\CustomerPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T17:21:12.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T19:04:26.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SalonCoiffure\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\MainWindow.xaml",
               "RelativeToolTip": "SalonCoiffure\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T17:18:14.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T17:18:14.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\HomePage.xaml",
               "RelativeDocumentMoniker": "SalonCoiffure\\HomePage.xaml",
               "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\HomePage.xaml",
               "RelativeToolTip": "SalonCoiffure\\HomePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T17:18:08.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T17:18:08.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\Data\\Database.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\Data\\Database.cs",
@@ -206,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "ProfileViewModel.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\ViewModel\\ProfileViewModel.cs",
@@ -214,12 +281,11 @@
               "RelativeToolTip": "SalonCoiffure\\ViewModel\\ProfileViewModel.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAIwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:58:49.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T16:58:49.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "LoginTest.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure.Tests\\Tests\\LoginTest.cs",
               "RelativeDocumentMoniker": "SalonCoiffure.Tests\\Tests\\LoginTest.cs",
@@ -231,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "CustomerTest.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure.Tests\\Tests\\CustomerTest.cs",
               "RelativeDocumentMoniker": "SalonCoiffure.Tests\\Tests\\CustomerTest.cs",
@@ -239,12 +305,11 @@
               "RelativeToolTip": "SalonCoiffure.Tests\\Tests\\CustomerTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:49:53.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T16:49:53.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "ServiceTest.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure.Tests\\Tests\\ServiceTest.cs",
               "RelativeDocumentMoniker": "SalonCoiffure.Tests\\Tests\\ServiceTest.cs",
@@ -256,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\LoginPage.xaml.cs",
@@ -264,12 +329,11 @@
               "RelativeToolTip": "SalonCoiffure\\LoginPage.xaml.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAADwvykAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:32:36.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T16:32:36.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\Model\\User.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\Model\\User.cs",
@@ -281,19 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FactureViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\FactureViewModel.cs",
-              "RelativeDocumentMoniker": "SalonCoiffure\\ViewModel\\FactureViewModel.cs",
-              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\FactureViewModel.cs",
-              "RelativeToolTip": "SalonCoiffure\\ViewModel\\FactureViewModel.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T16:02:42.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "IServiceDataProvider.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\Data\\IServiceDataProvider.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\Data\\IServiceDataProvider.cs",
@@ -305,19 +357,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "ServiceDataProvider.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\Data\\ServiceDataProvider.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\Data\\ServiceDataProvider.cs",
               "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\Data\\ServiceDataProvider.cs",
               "RelativeToolTip": "SalonCoiffure\\Data\\ServiceDataProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T16:02:28.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
               "Title": "ServiceWindow.xaml",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ServiceWindow.xaml",
               "RelativeDocumentMoniker": "SalonCoiffure\\ServiceWindow.xaml",
@@ -328,19 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ServiceViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\ServiceViewModel.cs",
-              "RelativeDocumentMoniker": "SalonCoiffure\\ViewModel\\ServiceViewModel.cs",
-              "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\ServiceViewModel.cs",
-              "RelativeToolTip": "SalonCoiffure\\ViewModel\\ServiceViewModel.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAA+wGkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:54:19.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\Model\\Customer.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\Model\\Customer.cs",
@@ -352,19 +392,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
               "Title": "CustomerViewModel.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\CustomerViewModel.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\ViewModel\\CustomerViewModel.cs",
               "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\ViewModel\\CustomerViewModel.cs",
               "RelativeToolTip": "SalonCoiffure\\ViewModel\\CustomerViewModel.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowHEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAuwHsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T15:06:05.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SalonCoiffure\\Data\\AppDbContext.cs",
@@ -376,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "SalonCoiffure.Tests\\UnitTest1.cs",
@@ -388,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "SalonCoiffure.csproj",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
               "RelativeDocumentMoniker": "SalonCoiffure\\SalonCoiffure.csproj",
@@ -400,15 +440,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "PaiementPage.xaml",
               "DocumentMoniker": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\PaiementPage.xaml",
               "RelativeDocumentMoniker": "SalonCoiffure\\PaiementPage.xaml",
               "ToolTip": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\PaiementPage.xaml",
               "RelativeToolTip": "SalonCoiffure\\PaiementPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-20T14:51:12.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T14:51:12.987Z"
             }
           ]
         }

@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using SalonCoiffure.Data;
@@ -17,6 +18,10 @@ namespace SalonCoiffure.ViewModel
 
         [ObservableProperty]
         private Service selectedService;
+
+        [ObservableProperty]
+        private Service newService = new Service();
+
 
         [ObservableProperty]
         private string searchText;
@@ -75,40 +80,67 @@ namespace SalonCoiffure.ViewModel
         }
 
         [RelayCommand]
-        private void Add()
+        private async Task Add()
         {
-            if (SelectedService != null)
+            if (string.IsNullOrWhiteSpace(SelectedService?.Nom))
             {
-                var newService = new Service
-                {
-                    Nom = SelectedService.Nom,
-                    Prix = SelectedService.Prix
-                };
-
-                Services.Add(newService);
-                FilteredServices.Add(newService);
-                SelectedService = new Service();
+                MessageBox.Show("Le champ Nom est requis.");
+                return;
             }
+
+            var newService = new Service
+            {
+                Nom = SelectedService.Nom,
+                Prix = SelectedService.Prix
+            };
+
+            await _serviceDataProvider.AddAsync(newService);
+            Services.Add(newService);
+            FilteredServices.Add(newService);
+            SelectedService = new Service(); 
         }
+
 
         [RelayCommand]
         private async Task Update()
         {
-            if (SelectedService != null)
+            if (SelectedService == null)
+            {
+                MessageBox.Show("Veuillez sélectionner un service à modifier.");
+                return;
+            }
+
+            try
             {
                 await _serviceDataProvider.UpdateAsync(SelectedService);
                 await LoadAsync();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erreur lors de la mise à jour :");
             }
         }
 
         [RelayCommand]
         private async Task Delete()
         {
-            if (SelectedService != null)
+            if (SelectedService == null)
             {
-                await _serviceDataProvider.DeleteAsync(SelectedService); 
+                MessageBox.Show("Veuillez sélectionner un service à supprimer.");
+                return;
+            }
+
+
+
+            try
+            {
+                await _serviceDataProvider.DeleteAsync(SelectedService);
                 await LoadAsync();
-                SelectedService = new Service();
+                SelectedService = null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erreur lors de la suppression");
             }
         }
 
