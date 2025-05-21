@@ -61,7 +61,7 @@ namespace SalonCoiffure {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SalonCoiffure;component/profilepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SalonCoiffure;V1.0.0.0;component/profilepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ProfilePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -61,7 +61,7 @@ namespace SalonCoiffure {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SalonCoiffure;component/facturepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SalonCoiffure;V1.0.0.0;component/facturepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\FacturePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

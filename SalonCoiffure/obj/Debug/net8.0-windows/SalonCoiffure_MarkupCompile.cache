@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\chadi\OneDrive\Bureau\Hiver25\dev\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\
+C:\dev\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\
 SalonCoiffure
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\chadi\OneDrive\Bureau\Hiver25\dev\App_Facture\SalonCoiffure\App.xaml
-9-607902756
+C:\dev\App_Facture\SalonCoiffure\App.xaml
+9798409245
 
-33762204526
-219-57536649
-ContactPage.xaml;CustomerPage.xaml;FacturePage.xaml;HomePage.xaml;LoginPage.xaml;MainWindow.xaml;PaiementPage.xaml;ProfilePage.xaml;ServiceWindow.xaml;
+33-918369643
+219-841336962
+MainWindow.xaml;View\ContactPage.xaml;View\CustomerPage.xaml;View\FacturePage.xaml;View\HomePage.xaml;View\LoginPage.xaml;View\PaiementPage.xaml;View\ProfilePage.xaml;View\ServiceWindow.xaml;
 
 False
 

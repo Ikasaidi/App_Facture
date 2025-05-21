@@ -2,39 +2,39 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="ContactPage.xaml.cs">
+    <Compile Update="View\ContactPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="CustomerPage.xaml.cs">
+    <Compile Update="View\CustomerPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="HomePage.xaml.cs">
+    <Compile Update="View\HomePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="FacturePage.xaml.cs">
+    <Compile Update="View\FacturePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="LoginPage.xaml.cs">
+    <Compile Update="View\LoginPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="PaiementPage.xaml.cs">
+    <Compile Update="View\PaiementPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ProfilePage.xaml.cs">
+    <Compile Update="View\ProfilePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ServiceWindow.xaml.cs">
+    <Compile Update="View\ServiceWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="FacturePage.xaml">
+    <Page Update="View\FacturePage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="LoginPage.xaml">
+    <Page Update="View\LoginPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ProfilePage.xaml">
+    <Page Update="View\ProfilePage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

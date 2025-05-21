@@ -53,7 +53,7 @@ namespace SalonCoiffure {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SalonCoiffure;component/paiementpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SalonCoiffure;V1.0.0.0;component/paiementpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\PaiementPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

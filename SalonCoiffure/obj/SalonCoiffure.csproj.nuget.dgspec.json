@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {}
+    "C:\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {
+    "C:\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
+        "projectUniqueName": "C:\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
         "projectName": "SalonCoiffure",
-        "projectPath": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
-        "packagesPath": "C:\\Users\\chadi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\obj\\",
+        "projectPath": "C:\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj",
+        "packagesPath": "C:\\Users\\ikram\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\App_Facture\\SalonCoiffure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\chadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ikram\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -2507,23 +2507,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chadi\\.nuget\\packages\\": {},
+    "C:\\Users\\ikram\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure.Tests\\SalonCoiffure.Tests.csproj",
+      "projectUniqueName": "C:\\dev\\App_Facture\\SalonCoiffure.Tests\\SalonCoiffure.Tests.csproj",
       "projectName": "SalonCoiffure.Tests",
-      "projectPath": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure.Tests\\SalonCoiffure.Tests.csproj",
-      "packagesPath": "C:\\Users\\chadi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure.Tests\\obj\\",
+      "projectPath": "C:\\dev\\App_Facture\\SalonCoiffure.Tests\\SalonCoiffure.Tests.csproj",
+      "packagesPath": "C:\\Users\\ikram\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\App_Facture\\SalonCoiffure.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\chadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ikram\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2538,8 +2538,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {
-              "projectPath": "C:\\Users\\chadi\\OneDrive\\Bureau\\Hiver25\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj"
+            "C:\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj": {
+              "projectPath": "C:\\dev\\App_Facture\\SalonCoiffure\\SalonCoiffure.csproj"
             }
           }
         }
