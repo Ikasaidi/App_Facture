@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\dev\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\
+C:\Users\kevyj\Desktop\work\experiments\session4\csharp\App_Facture\SalonCoiffure\obj\Debug\net8.0-windows\
 SalonCoiffure
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\dev\App_Facture\SalonCoiffure\App.xaml
-9798409245
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\kevyj\Desktop\work\experiments\session4\csharp\App_Facture\SalonCoiffure\App.xaml
+10142744145
 
-33-918369643
-219-841336962
-MainWindow.xaml;View\ContactPage.xaml;View\CustomerPage.xaml;View\FacturePage.xaml;View\HomePage.xaml;View\LoginPage.xaml;View\PaiementPage.xaml;View\ProfilePage.xaml;View\ServiceWindow.xaml;
+342120124864
+2201035644939
+MainWindow.xaml;View\ContactPage.xaml;View\CustomerPage.xaml;View\EmailForm.xaml;View\FacturePage.xaml;View\HomePage.xaml;View\LoginPage.xaml;View\PaiementPage.xaml;View\ProfilePage.xaml;View\ServiceWindow.xaml;
 
 False
 

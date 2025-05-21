@@ -75,10 +75,28 @@
                     Height="40"
                     Margin="0,10,0,0"
                     BorderThickness="0" Width="188" FontSize="16" />
+
+                <Button Content="Enregistrer en PDF"
+                    Click="PdfGenerator_Click"
+                    Background="#FF8A4194"
+                    Foreground="Black"
+                    FontWeight="Bold"
+                    Height="40"
+                    Margin="0,10,0,0"
+                    BorderThickness="0" Width="188" FontSize="16" />
+
+                <Button Content="Envoyer un email"
+                    Click="EmailFormOpener_Click"
+                    Background="#7142D7"
+                    Foreground="Black"
+                    FontWeight="Bold"
+                    Height="40"
+                    Margin="0,10,0,0"
+                    BorderThickness="0" Width="188" FontSize="16" />
                 <TextBlock Text="Détails de la facture" FontSize="24" FontWeight="Bold" Foreground="#7142D7" Margin="0,0,0,20"/>
 
                 <TextBlock Text="Client :" FontWeight="SemiBold" Foreground="White" FontSize="18"/>
-                <TextBlock Text="{Binding SelectedCustomer.Nom}" Margin="0,0,0,10"/>
+                <TextBlock x:Name="ClientName"  Text="{Binding SelectedCustomer.Nom}" Margin="0,0,0,10"/>
 
                 <TextBlock Text="Services sélectionnés :" FontWeight="SemiBold" Foreground="White" FontSize="18" />
                 <ItemsControl ItemsSource="{Binding SelectedServices}" Margin="0,0,0,10">
@@ -90,7 +108,7 @@
                 </ItemsControl>
 
                 <TextBlock Text="Prix total :" FontWeight="SemiBold" Foreground="White" FontSize="18"/>
-                <TextBlock Text="{Binding TotalPrix, StringFormat={}{0:C}}" FontSize="18" Foreground="White" FontWeight="Bold"/>
+                <TextBlock x:Name="TotalPrice"  Text="{Binding TotalPrix, StringFormat={}{0:C}}" FontSize="18" Foreground="White" FontWeight="Bold"/>
             </StackPanel>
         </Border>
     </Grid>

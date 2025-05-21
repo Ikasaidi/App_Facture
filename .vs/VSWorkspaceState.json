@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SalonCoiffure"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\SalonCoiffure\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }
