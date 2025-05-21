@@ -95,9 +95,9 @@ SalonCoiffure/
 
 -  Wiki du projet : https://github.com/Ikasaidi/App_Facture/wiki
 -  Documentation MVVM Toolkit :  
-  https://learn.microsoft.com/en-us/windows/communitytoolkit/mvvm/
+  https://learn.microsoft.com/en-us/dotnet/communitytoolkit/
 -  Documentation QuestPDF :  
-  https://www.questpdf.com/documentation.html
+  https://www.questpdf.com/quick-start.html
 -  EF Core :  
   https://learn.microsoft.com/en-us/ef/core/
 -  Envoi de mail C# :  
