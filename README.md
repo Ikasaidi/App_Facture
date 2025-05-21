@@ -1,6 +1,9 @@
 
 ## 1. Introduction
+## 1. Introduction
 
+### 1.1 Contexte  
+Afin de simplifier la gestion des paiements et des clients dans un salon de coiffure, cette application a été développée pour centraliser la facturation, le suivi des paiements, et les informations des clients dans une interface simple et efficace.
 ### 1.1 Contexte  
 Afin de simplifier la gestion des paiements et des clients dans un salon de coiffure, cette application a été développée pour centraliser la facturation, le suivi des paiements, et les informations des clients dans une interface simple et efficace.
 
